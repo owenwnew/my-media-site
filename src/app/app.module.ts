@@ -6,6 +6,10 @@ import { HomeComponent } from './home/home.component';
 import { CenseredSnapshotsComponent } from './home/censered-snapshots/censered-snapshots.component';
 import { UncenseredSnapshotsComponent } from './home/uncensered-snapshots/uncensered-snapshots.component';
 import { WesternSnapshotsComponent } from './home/western-snapshots/western-snapshots.component';
+import { HeaderComponent } from './header/header.component';
+import { WesternComponent } from './western/western.component';
+import { CensoredComponent } from './censored/censored.component';
+import { UncensoredComponent } from './uncensored/uncensored.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +17,11 @@ import { WesternSnapshotsComponent } from './home/western-snapshots/western-snap
     HomeComponent,
     CenseredSnapshotsComponent,
     UncenseredSnapshotsComponent,
-    WesternSnapshotsComponent
+    WesternSnapshotsComponent,
+    HeaderComponent,
+    WesternComponent,
+    CensoredComponent,
+    UncensoredComponent
   ],
   imports: [
     BrowserModule
